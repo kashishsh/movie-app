@@ -6,17 +6,16 @@ const MovieListItem = ({ movie }) => {
 
   return (
     <li className="list-group-item">
-      <div className="video-list media">
+      <div className="media">
         <div className="media-left">
-          <img className="poster" src={ posterPath } alt={ movie.title } />
+          <img className="poster" src={posterPath} alt={movie.title} />
         </div>
-
-        <div className="media-body">
+        <div className="media-body p-lg-1">
           <div className="media-heading">
-            { movie.title }
+            {movie.title}
           </div>
           <div>
-            { movie.overview }
+            {movie.overview}
           </div>
         </div>
       </div>

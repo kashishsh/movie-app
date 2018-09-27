@@ -1,5 +1,7 @@
 import _ from 'lodash';
+
 import React, { Component } from "react";
+import 'bootstrap/dist/css/bootstrap.css';
 
 import Movies from './services/Movies';
 
@@ -47,7 +49,8 @@ export default class App extends Component {
 
     return (
       <div>
-        <SearchBar movieSearch = { movieSearch } />
+        <h1 className="heading">Movies App</h1>
+        <SearchBar movieSearch={movieSearch} />
         <MovieList
           movies={this.state.movies}
         />

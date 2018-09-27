@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import PropTypes from 'prop-types';
 
 class SearchBar extends Component {
   constructor(props) {
@@ -31,5 +31,8 @@ class SearchBar extends Component {
     );
   }
 };
+SearchBar.propTypes = {
+  movieSearch: PropTypes.func.isRequired
+}
 
 export default SearchBar;
