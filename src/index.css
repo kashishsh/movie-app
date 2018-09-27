@@ -1,0 +1,16 @@
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 75%;
+}
+
+.poster {
+  width: 100px;
+  height: 100px;
+}
+.media-heading {
+  font-weight: bold;
+}
